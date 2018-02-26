@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="blog.mapper.TouPiaoMapper" >
+ 
+ <insert id="touPiaoDao" parameterType="blog.dto.output.TouPiaoDTO">
+	insert into b_toupiao(keshi,first1,first2,first3,first4,first5,first6,first7,first8,first9,first10,first11,first12,first13)
+	VALUES
+	(#{keshi},#{first1},#{first2},#{first3},#{first4},#{first5},#{first6},#{first7},#{first8},#{first9},#{first10},#{first11},#{first12},#{first13})
+	
+ </insert>
+</mapper>
